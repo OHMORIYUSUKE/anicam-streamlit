@@ -19,32 +19,32 @@ kyara = st.sidebar.radio("キャラクター",('あずさ', 'はるか','みお'
 
 
 if kyara == "あずさ":
-    kyara = 'C:/Users/81908/Documents/Python/Opencv/azusa.png'
+    kyara = 'azusa.png'
     x_param = 20
     y_param = 0
     size_param = 2
 elif kyara == 'はるか':
-    kyara = 'C:/Users/81908/Documents/Python/Opencv/haruka.png' 
+    kyara = 'haruka.png' 
     x_param = 40
     y_param = 0
     size_param = 2
 elif kyara == 'みお':
-    kyara = 'C:/Users/81908/Documents/Python/Opencv/mio.png'
+    kyara = 'mio.png'
     x_param = 50
     y_param = 0
     size_param = 2
 elif kyara == 'かなこ':
-    kyara = 'C:/Users/81908/Documents/Python/Opencv/kanako.png' 
+    kyara = 'kanako.png' 
     x_param = -40
     y_param = -60
     size_param = 3
 elif kyara == 'みく':
-    kyara = 'C:/Users/81908/Documents/Python/Opencv/miku.png' 
+    kyara = 'miku.png' 
     x_param = 0
     y_param = -60
     size_param = 3
 elif kyara == 'なな':
-    kyara = 'C:/Users/81908/Documents/Python/Opencv/nana.png' 
+    kyara = 'nana.png' 
     x_param = 20
     y_param = -80
     size_param = 3
@@ -89,7 +89,7 @@ if on:
 
     cap = cv2.VideoCapture(i)
 
-    cascade = cv2.CascadeClassifier('C:/Users/81908/Documents/Python/Opencv/haarcascade_frontalface_alt.xml')
+    cascade = cv2.CascadeClassifier('haarcascade_frontalface_alt.xml')
 
     while(cap.isOpened()):
         # フレームを取得

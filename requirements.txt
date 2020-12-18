@@ -2,3 +2,12 @@ streamlit
 Pillow
 numpy
 opencv-python
+gunicorn
+tensorflow
+keras
+matplotlib
+six 
+semidbm
+flask
+PyMySQL
+Pillow

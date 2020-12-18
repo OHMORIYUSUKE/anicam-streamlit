@@ -96,7 +96,7 @@ if on:
         ret, frame = cap.read()
 
         #frame = cv2.resize(frame, (1100,600))
-        #time.sleep(1)
+        time.sleep(0.01)
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         gray = cv2.equalizeHist(gray)
         faces = cascade.detectMultiScale(gray,

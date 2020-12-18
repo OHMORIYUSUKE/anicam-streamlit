@@ -1,4 +1,2 @@
-libsm6
-libxrender1
-libfontconfig1
-libice6
+freeglut3-dev
+libgtk2.0-dev

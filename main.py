@@ -126,7 +126,7 @@ if on:
         image_loc.image(frame)
         #cv2.moveWindow('Flame', 100, 200)
     cap.release()
-    cv.waitKey(1)
+    cv2.waitKey(1)
     cv2.destroyAllWindows()
 
 """

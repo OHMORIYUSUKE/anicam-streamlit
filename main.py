@@ -124,7 +124,7 @@ if on:
         frame = frame.convert('RGBA')
 
         image_loc.image(frame)
-        #cv2.moveWindow('Flame', 100, 200)
+        cv2.moveWindow('Flame', 100, 200)
     cap.release()
     #cv2.destroyAllWindows()
 

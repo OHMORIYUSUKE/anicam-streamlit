@@ -96,7 +96,7 @@ if on:
         ret, frame = cap.read()
 
         #frame = cv2.resize(frame, (1100,600))
-        time.sleep(0.01)
+        #time.sleep(0.01)
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         gray = cv2.equalizeHist(gray)
         faces = cascade.detectMultiScale(gray,
@@ -126,7 +126,7 @@ if on:
         image_loc.image(frame)
         #cv2.moveWindow('Flame', 100, 200)
     cap.release()
-    #cv2.destroyAllWindows()
+    cv2.destroyAllWindows()
 
 """
 >制作者:うーたん  

@@ -1,4 +1,4 @@
 streamlit
 Pillow
-opencv=2.4.11
+menpo opencv=2.4.11
 numpy

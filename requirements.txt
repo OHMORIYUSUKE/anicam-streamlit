@@ -1,5 +1,4 @@
 streamlit
 Pillow
-opencv-python-headless
-libopencv-dev
+libopencv-dev opencv-python-headless
 numpy

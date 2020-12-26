@@ -1,4 +1,4 @@
 streamlit
 Pillow
-menpo opencv=2.4.11
+opencv-python-headless
 numpy

@@ -1,3 +1,4 @@
+mesa-libGL.x86_64
 absl-py==0.11.0
 altair==4.1.0
 argon2-cffi==20.1.0
@@ -105,4 +106,3 @@ Werkzeug==1.0.1
 widgetsnbextension==3.5.1
 wrapt==1.12.1
 yarg==0.1.9
-libgl1-mesa-glx

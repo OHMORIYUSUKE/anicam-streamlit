@@ -28,7 +28,7 @@ def check_camera_connection():
     true_camera_is = []  # 空の配列を用意
 
     # カメラ番号を0～9まで変えて、COM_PORTに認識されているカメラを探す
-    for camera_number in range(-1, 12):
+    for camera_number in range(-1, 4):
         cap = cv2.VideoCapture(camera_number)
         ret, frame = cap.read()
 

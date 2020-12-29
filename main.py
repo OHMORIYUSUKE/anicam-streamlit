@@ -88,7 +88,8 @@ if on:
     print("ループ内")
 
     cap = cv2.VideoCapture()
-
+    st.write(cap.isOpened())
+    
     cascade = cv2.CascadeClassifier('haarcascade_frontalface_alt.xml')
 
     while(cap.isOpened()):

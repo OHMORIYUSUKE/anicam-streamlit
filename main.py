@@ -127,7 +127,7 @@ if on:
         image_loc.image(frame)
         cv2.moveWindow('Flame', 100, 200)
     #cap.release()
-    cv2.destroyAllWindows()
+    #cv2.destroyAllWindows()
 
 """
 >制作者:うーたん  

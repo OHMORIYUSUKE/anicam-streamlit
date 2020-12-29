@@ -40,13 +40,7 @@ def check_camera_connection():
             st.write("camera_number", camera_number, "None")
     print("接続されているカメラは", len(true_camera_is), "台です。")
 
-
-if __name__ == "__main__":
-    check_camera_connection()
-    
-    
-    
-    
+ 
 kyara = st.sidebar.radio("キャラクター",('あずさ', 'はるか','みお','かなこ','みく','なな'))
 
 
@@ -118,8 +112,10 @@ if on:
     i=0
     print(i)
     print("ループ内")
-
-    cap = cv2.VideoCapture(1, cv2.CAP_ANDROID)
+    
+    check_camera_connection()
+     
+    cap = cv2.VideoCapture(0)
     st.write(cap.isOpened())
     
     cascade = cv2.CascadeClassifier('haarcascade_frontalface_alt.xml')
